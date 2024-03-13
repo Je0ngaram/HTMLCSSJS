@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a = prompt("금액을입력하세요(원)")
+        coin500 = a / 500 | 0;
+        coin100 = a % 500 / 100 | 0;
+        alert(`금액${a}원은 500원 동전${coin500}개와 100원 동전${coin100}개 `)
+    </script>
+
+</body>
+</html>
