@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <header>
+            <h1>온라인 서점 회원가입 페이지</h1>
+        </header>
+        <form action="#">
+            <fieldset>
+                <legend>회원 기본 정보</legend>
+                <p>
+                    <label for="userid">아이디:</label>
+                    <input type="text" id="userid">
+                </p>
+                <p>
+                    <label for="passwd">비밀번호:</label>
+                    <input type="password" id="passwd">
+                </p>
+                <p>
+                    <label for="username">이름:</label>
+                    <input type="text" id="username">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>연락처</legend>
+                <p>
+                    <label for="email">이메일:</label>
+                    <input type="text" id="email">
+                </p>
+                <p>
+                    <label for="tel">휴대전화:</label>
+                    <input type="tel" id="tel">
+                </p>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>추가 정보</legend>
+                <li>
+                    <label for="date">생년월일:
+                        <input type="date" id="date" max="3000-01-01" min="1900-01-01" value="2000-01-01">
+                    </label>
+
+                </li>
+                <br>
+                <br>
+                <tr>
+                    <td>성별:</td>
+                    <td>
+                        <input id="man" type="radio">
+                        <label for="man">남자</label>
+                        <input id="woman" type="radio">
+                        <label for="woman">여자</label>
+                        <input id="nothing" type="radio">
+                        <label for="nothing">선택하지않음</label>
+                        <br>
+                        <br>
+                    </td>
+                </tr>
+                <td>관심사:</td>
+                <input type="checkbox"><label for="checkbox">Java</label>
+                <input type="checkbox"><label for="checkbox">HTML</label>
+                <input type="checkbox"><label for="checkbox">CSS</label>
+                <input type="checkbox"><label for="checkbox">Javascript</label>
+                <input type="checkbox"><label for="checkbox">Algorithm</label>
+                <br>
+                <br>
+                <td>본인 사진:</td>
+                <input type="file"><label for="file">
+                    <br>
+            </fieldset>
+        </form>
+        <br>
+        <input type="button" value="초기화">
+        <input type="button" value="회원가입">
+
+    </form>
+</body>
+
+</html>
